@@ -10,7 +10,7 @@
   function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     const btn = document.getElementById('themeBtn');
-    if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    if (btn) btn.textContent = theme === 'dark' ? '💡' : '🌙';
     localStorage.setItem(STORAGE_KEY, theme);
   }
 
