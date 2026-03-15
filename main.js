@@ -617,6 +617,6 @@ document.addEventListener('DOMContentLoaded', function () {
     .catch(() => {
       heroCite.style.animation = '';
       // Hardcoded fallback (verified March 2025)
-      animateCounter(heroCite, 88, 2000);
+      animateCounter(heroCite, 162, 2000);
     });
 });
