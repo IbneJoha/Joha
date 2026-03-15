@@ -400,7 +400,7 @@ const fallbackCitations = {
   'pub-c2': 7,  // ICCIT 2023
   'pub-c3': 15,  // ICCIT 2022
   'pub-c4': 15, // ICCIT 2021
-  'pub-c5': 15,  // JCCI 2024
+  'pub-c5': 0,  // JCCI 2024
 };
 
 function stripTitle(t) {
