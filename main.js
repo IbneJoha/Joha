@@ -387,17 +387,17 @@ const titleKeywordMap = {
 // Known fallback citation counts (manually verified from Google Scholar, March 2025)
 // Update these when you refresh
 const fallbackCitations = {
-  'pub-j1': 38, // Sensors 2024 - Secure IIoT
-  'pub-j2': 17,  // Applied Sciences 2024
-  'pub-j3': 20,  // World EV Journal 2024
+  'pub-j1': 42, // Sensors 2024 - Secure IIoT
+  'pub-j2': 21,  // Applied Sciences 2024
+  'pub-j3': 25,  // World EV Journal 2024
   'pub-j4': 7, // IEEE Access 2024
   'pub-j5': 0,  // Under review
-  'pub-j6': 25, // ICT Express 2025 - SoH review
+  'pub-j6': 33, // ICT Express 2025 - SoH review
   'pub-j7': 0,  // Under review
   'pub-j8': 12,  // ICT Express 2025 - OFDM
-  'pub-j9': 13,  // IEEE OJCOMS 2025
-  'pub-c1': 13, // ICPC2T 2024 - Best Paper
-  'pub-c2': 7,  // ICCIT 2023
+  'pub-j9': 16,  // IEEE OJCOMS 2025
+  'pub-c1': 16, // ICPC2T 2024 - Best Paper
+  'pub-c2': 10,  // ICCIT 2023
   'pub-c3': 16,  // ICCIT 2022
   'pub-c4': 15, // ICCIT 2021
   'pub-c5': 0,  // JCCI 2024
@@ -617,6 +617,6 @@ document.addEventListener('DOMContentLoaded', function () {
     .catch(() => {
       heroCite.style.animation = '';
       // Hardcoded fallback (verified March 2025)
-      animateCounter(heroCite, 184, 2000);
+      animateCounter(heroCite, 220, 2000);
     });
 });
