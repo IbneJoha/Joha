@@ -387,7 +387,7 @@ const titleKeywordMap = {
 // Known fallback citation counts (manually verified from Google Scholar, March 2025)
 // Update these when you refresh
 const fallbackCitations = {
-  'pub-j1': 42, // Sensors 2024 - Secure IIoT
+  'pub-j1': 48, // Sensors 2024 - Secure IIoT
   'pub-j2': 21,  // Applied Sciences 2024
   'pub-j3': 25,  // World EV Journal 2024
   'pub-j4': 7, // IEEE Access 2024
@@ -617,6 +617,6 @@ document.addEventListener('DOMContentLoaded', function () {
     .catch(() => {
       heroCite.style.animation = '';
       // Hardcoded fallback (verified March 2025)
-      animateCounter(heroCite, 220, 2000);
+      animateCounter(heroCite, 266, 2000);
     });
 });
